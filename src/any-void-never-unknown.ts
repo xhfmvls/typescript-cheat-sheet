@@ -35,5 +35,15 @@ let s1: string = vAny;
 
 // But you can't assign the value of unknown variable into other variable
 /*
-let s2L: string vUnknown; 
+let s2: string vUnknown; 
 */
+
+// TYPE ASSERTION
+
+// you can't assign the value of unknown variable into other variable, 
+// but when you do type assertion, you can assign the value of unknown variable into other variable
+let s2: string = vUnknown as string; 
+
+let pageNumber: string = "1"; 
+// you can assign the value of pageNumber (string) as numeric data type when you do type assetion first
+let numericPageNumber: number = (pageNumber as unknown) as number; 
