@@ -4,6 +4,7 @@
 const doSomething = (): void => {
     console.log('doSomething');
 }
+doSomething()
 
 // you may set a variable into any type
 // with any type, the value of a variable could be any type
