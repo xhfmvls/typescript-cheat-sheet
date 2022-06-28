@@ -1,0 +1,20 @@
+{
+  "name": "typescript-testing",
+  "version": "1.0.0",
+  "description": "Repo for typescript testing purposes <br>\r All the codes are based/inspired from a Youtube video by freeCodeCamp. <br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xhfmvls/typescript-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xhfmvls/typescript-testing/issues"
+  },
+  "homepage": "https://github.com/xhfmvls/typescript-testing#readme"
+}
