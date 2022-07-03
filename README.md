@@ -1,5 +1,5 @@
-# typescript-testing
-Repo for typescript testing purposes <br>
+# typescript cheat sheet
+Repo for typescript cheat sheet <br>
 All the codes are based/inspired from a Youtube video by freeCodeCamp. <br>
 
 ## Source
