@@ -31,3 +31,16 @@ const returnedIdentities = <T, U>(arg1: T, arg2: U): Identities<T, U> => {
 }
 
 console.log(returnedIdentities); 
+
+class Programmer<T> {
+  private languageName: string; 
+  private languageInfo: T; 
+
+  constructor(lang: string) {
+    this.languageName = lang; 
+  }
+}
+
+let programmer = new Programmer('Typescript'); 
+
+console.log(programmer); 
